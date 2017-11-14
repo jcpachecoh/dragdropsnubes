@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App render fine without problem 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src=""
+    />
+    <h1
+      className="App-title"
+    >
+      Welcome to train App
+    </h1>
+  </header>
+  <div
+    id="left-side"
+  >
+    <ul>
+      <div
+        data="locomotive"
+        draggable="true"
+        onDragEnd={[Function]}
+        onDragStart={[Function]}
+        type="locomotive"
+      >
+        <img
+          height="80"
+          id="locomotive"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Mogul_steam_locomotive_icon.svg/2000px-Mogul_steam_locomotive_icon.svg.png"
+          width="150"
+        />
+      </div>
+      <div
+        data="carriage"
+        draggable="true"
+        onDragEnd={[Function]}
+        onDragStart={[Function]}
+        type="carriage"
+      >
+        <img
+          height="80"
+          id="carriage"
+          src="https://cdn.iconscout.com/public/images/icon/premium/png-512/carriage-passenger-railroad-railway-train-transport-3c58b2a70d33854f-512x512.png"
+          width="150"
+        />
+      </div>
+    </ul>
+    <label
+      className="control-label"
+      htmlFor={undefined}
+    >
+      Trains Number to schedule
+    </label>
+    <input
+      className="form-control"
+      id="trainNumber"
+      onChange={[Function]}
+      placeholder="Enter Number of trains "
+      type="text"
+      value={null}
+    />
+    <button
+      className="btn btn-primary"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Build Trains
+    </button>
+    <button
+      className="btn btn-primary"
+      disabled={true}
+      type="button"
+    >
+       
+      Calculate Tracks!
+    </button>
+  </div>
+  <div
+    id="right-side"
+  />
+</div>
+`;
